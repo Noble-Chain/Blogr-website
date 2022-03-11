@@ -1,0 +1,17 @@
+*{
+    font-family: 'Overpass', sans-serif;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+$theme-colors : (
+    "primary": hsl(208, 49%, 24%),
+    "light": hsl(0, 0%, 100%),
+    "danger": hsl(356, 100%, 66%)
+);
+
+    
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

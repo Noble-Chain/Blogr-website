@@ -1,0 +1,192 @@
+body{
+    overflow-x: hidden;
+}
+button:hover{
+    color: hsl(355, 100%, 74%) !important;
+}
+.home{
+    background: hsl(13, 100%, 72%);
+    /* background: linear-gradient(hsl(13, 100%, 72%),  hsl(353, 100%, 62%)); */
+    background-image: url("../images/bg-pattern-intro-desktop.svg");
+    background-position: 22% 50%;
+    background-size: 243%;
+    border-bottom-left-radius: 130px;
+    height: 80vh;
+
+}
+.home-title{
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.login-btn:hover{
+color: black!important;
+}
+.intro-img{
+  transform: translate(80px, -150px);
+}
+.intro-text{
+    padding-left: 120px;
+}
+.intro-content{
+    height: 120vh;
+}
+.mobile-show-img{
+    transform: translateY(-80px);
+}
+.mobile-show-container{
+    height: 50vh;
+    background: hsl(237, 17%, 21%);
+    background: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+}
+.desktop-show-container{  
+    padding-top: 100px;
+}
+.desktop-show-img{
+    transform: translateX(-300px);
+}
+.desktop-show-text{
+    padding: 50px 120px;
+}
+.footer{
+    background:   hsl(240, 10%, 16%);
+    height: 50vh;
+    border-top-right-radius: 100px;
+    padding-top: 50px;
+}
+.footer-link:hover{ 
+    color :hsl(355, 100%, 74%) !important;
+
+}
+.op-50{
+    opacity:0.7;
+}
+
+.intro-bg{
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/illustration-editor-desktop.svg);
+    background-position: right;
+    background-size: cover;
+}
+.mobile-show-bg{
+    background-image: url(../images/illustration-phones.svg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: top;
+    transform: translateY(-105px);
+}
+.desktop-show-bg{
+    width: 100%;
+    height: 200px;
+    margin: 70px 0;  
+    background-image: url(../images/illustration-laptop-desktop.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cus-navbar{
+
+}
+.cus-navbar ul li a{
+    color: red;
+}
+
+@media screen and (max-width:1024px) {
+    .home{
+        height: 70vh;
+    }
+    .intro-bg{
+        width: 500px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .intro-content{
+        height: 80vh;
+    }
+    .mobile-show-container{
+        height: 80vh;
+    }
+    .desktop-show-container {
+        padding-top: 40px;
+    }
+    .desktop-show-bg{
+        width: 650px;
+        height: 400px;
+        margin: 0px auto 50px;
+    }
+    .footer-menu{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:480px) {
+   
+    body{
+        overflow-x: hidden;
+    }
+    .home{
+        width: 100%;
+        height: 90vh;
+    }
+    .home-title{
+        font-size: 30px;
+      
+    }
+    .intro-text{
+        padding: 50px;
+        text-align: center;
+    }
+    .intro-bg{
+        width: 100%;
+        height: 200px;
+        background-image: url(../images/illustration-editor-mobile.svg);
+        background-position: right;
+        background-size: cover;
+    }
+    .mobile-show-container{
+        height: 700px;
+        background: hsl(237, 17%, 21%);
+        background: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        transform: translateY(200px);
+
+    
+    }
+    .mobile-show-bg{
+        background-image: url(../images/illustration-phones.svg);
+        background-repeat: no-repeat;
+        height: 500px;
+        max-width: 100%;
+        background-position:left;
+        transform: translateY(-200px);
+        background-size: cover;
+    }
+    .mobile-show-text{
+        transform: translateY(-300px);
+    }
+    .desktop-show-text{
+        padding: 20px;
+        text-align: center;
+    }
+    .desktop-show-bg {
+        width: 250px;
+        height: 250px;
+        margin: 130px auto 50px;
+    }
+    .footer{
+        height: 750px;
+    }
+    .footer-menu{
+        text-align: center;
+    }
+    .dropdown-color{
+        color: red;
+    }
+   
+}
